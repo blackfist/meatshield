@@ -21,5 +21,10 @@ module Meatshield
       puts "These are the hits"
     end
 
+    desc "artwork", "displays some artwork"
+    def artwork
+      Meatshield::Artwork.new.run
+    end
+
   end
 end

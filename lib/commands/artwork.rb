@@ -1,7 +1,6 @@
 module Meatshield
-  class CLI < Thor
-    desc "artwork", "displays some artwork"
-    def artwork
+  class Artwork
+    def run
       meatart = """
                    __  __            _       _     _      _     _
                   |  \\/  | ___  __ _| |_ ___| |__ (_) ___| | __| |
@@ -11,6 +10,7 @@ module Meatshield
                   Dedicated to Tyler with love
                 """
       puts meatart
+      meatart
     end
   end
 end
