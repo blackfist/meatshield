@@ -23,7 +23,7 @@ module Meatshield
 
     desc "artwork", "displays some artwork"
     def artwork
-      Meatshield::Artwork.new.run
+      Meatshield::Artwork.run
     end
 
   end

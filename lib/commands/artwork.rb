@@ -1,10 +1,10 @@
 module Meatshield
   class Artwork
-    def run
+    def self.run
       self.send([:art1, :art2].sample)
     end
 
-    def art1
+    def self.art1
       meatart = """
                    __  __            _       _     _      _     _
                   |  \\/  | ___  __ _| |_ ___| |__ (_) ___| | __| |
@@ -17,7 +17,7 @@ module Meatshield
       meatart
     end
 
-    def art2
+    def self.art2
       meatart = """
         * m e a t s h i e l d * * m e a t s h i e l d * m
         m                                               e
