@@ -1,4 +1,7 @@
 # meatshield
+
+[![Circle CI](https://circleci.com/gh/blackfist/meatshield/tree/master.svg?style=svg)](https://circleci.com/gh/blackfist/meatshield/tree/master)
+
 Command line tool for exploring log files
 
 # Running Meatshield
